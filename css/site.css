@@ -1,0 +1,312 @@
+/*<CSS ID="1024_master.css" Name="1024_master.css" />*/
+
+/** Universal Styles ***********************************************************/
+
+body {
+    /*font-size: 12px;*/
+    color: #262626;
+    background: #fff;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+select, input, textarea {
+    border: 1px solid #ccc;
+    color: #666;
+    padding: 2px 1px;
+}
+.focusfield {
+    border: 1px solid #dfdfdf;
+    background: #fbfbfb;
+    color: #656565;
+}
+.field {
+    background: #fff;
+    color: #333;
+    border: 1px solid #b9b9b9;
+}
+.hide {
+    display: none;
+}
+a:link, a:visited, a:active {
+    color: #333;
+    text-decoration: none;
+    border: 0;
+}
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.clear {
+    clear: both;
+}
+.error {
+    color: red;
+}
+.green {
+    color: green;
+}
+.bold {
+    font-weight: bold;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.normal {
+    font-weight: normal;
+}
+.display {
+    display: none;
+}
+.block {
+    display: block;
+}
+.relative {
+    position: relative;
+}
+.italic {
+    font-style: italic;
+}
+.lower {
+    text-transform: lowercase;
+}
+.validator {
+    float: left;
+    text-transform: lowercase;
+}
+.hot-pink {
+    color: #ea048a;
+}
+.under-line {
+    text-decoration: underline;
+}
+#header {
+    float: left;
+    height: 220px;
+    font-size: 11px;
+    font-weight: normal;
+    background: #fff;
+}
+.topLink {
+    line-height: 0px;
+}
+.header_top_menu {
+    background-color: #e3e3e3;
+    float: left;
+    width: 984px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+}
+.header_top_menu .message {
+    float: left;
+    font-weight: bold;
+    height: auto;
+    margin-top: 0;
+    width: auto;
+    background-color: #e3e3e3;
+    padding: 3px 0px 0px 3px;
+}
+.header_top_menu .message .logoWW {
+    background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/WWHeader2013_WomanWithinButton.jpg) no-repeat;
+    float: left;
+    width: 115px;
+    ;
+    height: 24px;
+}
+.header_top_menu .message .logoOSP {
+    background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/WWHeader2013_OSPButton.jpg) no-repeat;
+    float: left;
+    width: 115px;
+    height: 24px;
+    margin-left: 2px;
+}
+.header_top_menu .message a {
+    font-weight: normal;
+    text-decoration: underline;
+}
+#wraptopUL {
+    margin-top: 0px;
+    float: right;
+    font-size: 11px;
+    background-color: #e3e3e3;
+    width: auto;
+    height: 27px;
+}
+.header_top_menu ul {
+    float: right;
+    height: 22px;
+    list-style: none;
+    margin-top: 0;
+}
+.header_top_menu ul li {
+    float: left;
+    margin-top: 5px;
+    border-right: 1px solid #000;
+}
+.header_top_menu ul li.bag.static {
+    height: 27px;
+    padding-top: 0px;
+    background-color: #fff;
+    margin-right: 0;
+    cursor: pointer;
+}
+.header_top_menu ul li.bag {
+    margin-top: 0;
+    padding: 0px 0;
+    border: 0;
+}
+.header_top_menu ul li.bag a.checkout {
+    padding-right: 5px;
+    border: 0 none;
+}
+.header_top_menu ul li.bag a.openBag .items, .header_top_menu ul li.bag a.bagLink .items {
+    background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_WW_header_bag.png) no-repeat scroll 60px -2px;
+    float: left;
+    width: 70px;
+    cursor: pointer;
+}
+.header_top_menu ul li.bag a:hover {
+    color: #333;
+}
+.header_top_menu ul li a:link, .header_top_menu ul li a:visited {
+    float: left;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.header_top_menu ul li a:hover {
+    color: #333;
+}
+.header_top_menu ul li a.last {
+    background: none;
+}
+.header_top_menu ul li a.menu {
+    padding: 0;
+}
+.header_top_menu ul li a#SignIn {
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.header_top_menu ul li a#SignIn:hover {
+    color: #333;
+}
+.header_top_menu ul li a.hoverstyle:hover {
+    color: #fff !important;
+}
+.header_top_menu ul li a #register {
+    color: #333;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+.header_top_menu ul li a#NotUser {
+    padding: 0;
+    text-decoration: none;
+}
+.header_top_menu ul li a.NotUser {
+    padding: 0 !important;
+    display: block !important;
+}
+.header_top_menu ul li a.menu2 {
+    padding: 0 12px 0 0;
+}
+.header_banner {
+    background: #fff none;
+    float: left;
+    margin: 0 auto;
+    height: auto;
+    width: 982px;
+}
+.header_banner .logoRight {
+    float: left;
+    margin: 7px 0px 0px 0px;
+    width: 292px;
+    height: 60px;
+    background: url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_ww_new_logo60.png) no-repeat;
+}
+.header_banner .search {
+    float: right;
+    height: 25px;
+    margin-top: 10px;
+    padding-left: 0;
+    width: 560px;
+}
+.header_banner .search_bar {
+    float: right;
+    height: 22px;
+    margin: 35px 0px 0px 6px;
+}
+.header_banner .search_bar input.first-search {
+    width: 150px;
+}
+.header_banner .search_bar input {
+    border-right: 0 none;
+    color: #a9a9a9;
+    float: left;
+    height: 17px;
+    margin: 0 0 0 5px;
+    padding: 1px 0 1px 5px;
+    width: 180px;
+}
+.header_banner .search_bar .go_button {
+    float: left;
+    width: 29px;
+    height: 21px;
+    background: url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_ww_search_go_a.png) top left no-repeat;
+}
+/* search auto-complete - 2011 RL9 */
+
+.header_banner .search_bar div.search-suggestions {
+    display: none;
+    position: absolute;
+    left: 567px;
+    top: 90px;
+    z-index: 999;
+    width: 171px;
+    padding: 6px;
+    border: 1px solid #dfdfdf;
+    border-top: 0;
+    text-align: left;
+    font-size: 11px;
+    background: #fff;
+    color: #666;
+    font-weight: normal;
+    font-style: italic;
+}
+.header_banner .search_bar div.search-suggestions a {
+    display: block;
+    padding: 4px;
+    color: #333;
+    font-style: normal;
+    text-decoration: none;
+}
+.header_banner .search_bar div.search-suggestions a.selected {
+    background: #eee;
+}
+.header_banner .search_bar div.search-suggestions strong {
+    color: #ed3897;
+}
+/* end search auto-complete */
+
+/* search history - 2012 RL1 */
+
+.top-bar-section .dropdown {
+    padding-bottom: 20px;
+}
+.top-bar-section .dropdown li a {
+    background: #E3E3E3;
+    font-size: 0.7em;
+    padding: 5px 15px;
+    color: #333;
+}
+
+.no-js .top-bar-section ul li:hover > a, .no-js .top-bar-section ul li:active > a {
+    background: #E3E3e3;
+    color: #ea048a;
+}
