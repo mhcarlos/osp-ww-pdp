@@ -1,6 +1,6 @@
 /*<CSS ID="1024_master.css" Name="1024_master.css" />*/
 
-/** Universal Styles ***********************************************************/
+/* Current Styles */
 
 body {
     /*font-size: 12px;*/
@@ -50,10 +50,6 @@ a:hover {
     height: 60px;
     background: url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_ww_new_logo60.png) no-repeat;
 }
-
-
-/* app.css overrides */
-
 .header_top_menu {
     background-color: #e3e3e3;
     float: left;
@@ -63,7 +59,6 @@ a:hover {
     top: 0px;
     font-weight: bold;
 }
-
 .header_top_menu .message {
     float: left;
     font-weight: bold;
@@ -73,14 +68,12 @@ a:hover {
     background-color: #e3e3e3;
     padding: 3px 0px 0px 3px;
 }
-
 .header_top_menu .message .logoWW {
     background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/WWHeader2013_WomanWithinButton.jpg) no-repeat;
     float: left;
     width: 115px;
     height: 24px;
 }
-
 .header_top_menu .message .logoOSP {
     background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/WWHeader2013_OSPButton.jpg) no-repeat;
     float: left;
@@ -88,12 +81,10 @@ a:hover {
     height: 24px;
     margin-left: 2px;
 }
-
 .header_top_menu .message a {
     font-weight: normal;
     text-decoration: underline;
 }
-
 #wraptopUL {
     margin-top: 0px;
     float: right;
@@ -102,20 +93,17 @@ a:hover {
     width: auto;
     height: 27px;
 }
-
 .header_top_menu ul {
     float: right;
     height: 22px;
     list-style: none;
     margin-top: 0;
 }
-
 .header_top_menu ul li {
     float: left;
     margin-top: 5px;
     border-right: 1px solid #000;
 }
-
 .header_top_menu ul li.bag.static {
     height: 27px;
     padding-top: 0px;
@@ -123,18 +111,15 @@ a:hover {
     margin-right: 0;
     cursor: pointer;
 }
-
 .header_top_menu ul li.bag {
     margin-top: 0;
     padding: 0px 0;
     border: 0;
 }
-
 .header_top_menu ul li.bag a.checkout {
     padding-right: 5px;
     border: 0 none;
 }
-
 .header_top_menu ul li.bag a.openBag .items,
 .header_top_menu ul li.bag a.bagLink .items {
     background: transparent url(http://secureimages.plussizetech.com/images/site_images/womanwithin/1024_WW_header_bag.png) no-repeat scroll 60px -2px;
@@ -142,22 +127,18 @@ a:hover {
     width: 70px;
     cursor: pointer;
 }
-
 .header_top_menu ul li.bag a:hover {
     color: #333;
 }
-
 .header_top_menu ul li a:link, 
 .header_top_menu ul li a:visited {
     float: left;
     padding: 0 8px;
     text-decoration: none;
 }
-
 .header_top_menu ul li a:hover {
     color: #333;
 }
-
 .header_top_menu ul li a.last {
     background: none;
 }
@@ -165,40 +146,46 @@ a:hover {
 .header_top_menu ul li a.menu {
     padding: 0;
 }
-
 .header_top_menu ul li a#SignIn {
     color: #333;
     text-decoration: underline;
     cursor: pointer;
 }
-
 .header_top_menu ul li a#SignIn:hover {
     color: #333;
 }
-
 .header_top_menu ul li a.hoverstyle:hover {
     color: #fff !important;
 }
-
 .header_top_menu ul li a #register {
     color: #333;
     padding-right: 10px;
     text-decoration: underline;
 }
-
 .header_top_menu ul li a#NotUser {
     padding: 0;
     text-decoration: none;
 }
-
 .header_top_menu ul li a.NotUser {
     padding: 0 !important;
     display: block !important;
 }
-
 .header_top_menu ul li a.menu2 {
     padding: 0 12px 0 0;
 }
+
+
+/* Main Styles */
+#top-bar-div {
+    border-bottom: 1px solid #ccc; 
+    width: 990px; 
+    margin: 10px;
+    padding: 0;
+}
+.top-wrapper {
+    background-color: #e3e3e3;
+}
+/* app.css overrides */
 
 .top-bar-section .dropdown {
     padding-bottom: 20px;
@@ -215,7 +202,7 @@ a:hover {
 } 
 .top-bar-section > ul > li > a:not(.button) {
     padding: 0 11px;
-  }
+}
 .top-bar-section .has-dropdown > a {
     padding-right: 10px !important;
 }

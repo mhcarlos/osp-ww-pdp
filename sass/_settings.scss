@@ -126,8 +126,8 @@ $primary-color: #ea048a; /* Woman Within Magenta */ //#2ba6cb;
 // Media Queries
 
 // $small-screen: 768px;
-// $medium-screen: 1280px;
-// $large-screen: 1440px;
+$medium-screen: 1024px;
+$large-screen: 1280px; // 1440px;
 
 // $screen: "only screen";
 // $small: "only screen and (min-width: #{$small-screen})";
@@ -1261,7 +1261,7 @@ $topbar-bg-color: #FFF; // #111;
 
 // Height and margin
 
-$topbar-height: 30px; // 45px;
+$topbar-height: 35px; // 45px;
 // $topbar-margin-bottom: 0;
 
 // Control Input height for top bar
@@ -1278,20 +1278,20 @@ $topbar-title-font-size: em-calc(13); // em-calc(17);
 $topbar-dropdown-bg: #FFF; // #222;
 $topbar-dropdown-link-color: #333; // #fff;
 $topbar-dropdown-link-bg: lighten($topbar-bg-color, 5%); //lighten($topbar-bg-color, 5%);
-// $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: #EEE; // #fff;
-// $topbar-dropdown-toggle-alpha: 0.5;
+//$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: #333; // #fff;
+//$topbar-dropdown-toggle-alpha: 0.5;
 
 // Set the link colors and styles for top-level nav
 
 $topbar-link-color: #333; // #FFF;
-$topbar-link-color-hover: #ea048a; // #FFF;
-$topbar-link-color-active: #ea048a; // #fff;
+$topbar-link-color-hover: $primary-color; // #FFF;
+$topbar-link-color-active: $primary-color; // #fff;
 $topbar-link-weight: normal; // bold;
 // $topbar-link-font-size: em-calc(13);
 // $topbar-link-hover-lightness: -30%; // Darken by 30%
 $topbar-link-bg-hover: #EEE; // darken($topbar-bg-color, 3%);
-// $topbar-link-bg-active: #FFF; // darken($topbar-bg-color, 3%);  
+$topbar-link-bg-active: $primary-color; // darken($topbar-bg-color, 3%);  
 
 // $topbar-dropdown-label-color: #555;
 // $topbar-dropdown-label-text-transform: uppercase;
@@ -1304,8 +1304,8 @@ $topbar-link-bg-hover: #EEE; // darken($topbar-bg-color, 3%);
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: em-calc(13);
 // $topbar-menu-link-weight: bold;
-// $topbar-menu-link-color: #fff;
-// $topbar-menu-icon-color: #fff;
+$topbar-menu-link-color: #f00; //#fff;
+$topbar-menu-icon-color: #333; // #fff;
 // $topbar-menu-link-color-toggled: #888;
 // $topbar-menu-icon-color-toggled: #888;
 
@@ -1323,4 +1323,4 @@ $topbar-link-bg-hover: #EEE; // darken($topbar-bg-color, 3%);
 // Sticky Class
 
 // $topbar-sticky-class: ".sticky";
-// $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
+$topbar-arrows: false; //Set false to remove the triangle icon from the menu item
