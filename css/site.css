@@ -38,7 +38,7 @@ a:hover {
 .header_banner {
     background: #fff none;
     float: left;
-    margin: 0 auto;
+    margin: 10px auto;
     height: auto;
     width: 982px;
     font-size: 0.8em;
@@ -184,6 +184,9 @@ a:hover {
 }
 .top-wrapper {
     background-color: #e3e3e3;
+}
+@media only screen and (max-width: 939px) {
+
 }
 /* app.css overrides */
 
