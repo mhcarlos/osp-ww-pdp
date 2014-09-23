@@ -1255,7 +1255,7 @@ $large-screen: 1280px; // 1440px;
 
 // Background color for the top bar
 
-$topbar-bg-color: #eee; // #111;
+$topbar-bg-color: #EEE; // #111;
 //$topbar-bg: $topbar-bg-color;
 
 
@@ -1275,7 +1275,7 @@ $topbar-title-font-size: em-calc(13); // em-calc(17);
 
 // Style the top bar dropdown elements
 
-$topbar-dropdown-bg: #EeeeEE; // #222;
+$topbar-dropdown-bg: #EEE; // #222;
 $topbar-dropdown-link-color: #333; // #fff;
 $topbar-dropdown-link-bg: lighten($topbar-bg-color, 5%); //lighten($topbar-bg-color, 5%);
 //$topbar-dropdown-toggle-size: 5px;
@@ -1312,7 +1312,7 @@ $topbar-menu-icon-color: #333; // #fff;
 // Transitions and breakpoint styles
 
 // $topbar-transition-speed: 300ms;
-// $topbar-breakpoint: 940 !default; // Change to 9999px for always mobile layout
+$topbar-breakpoint: 767px !default; // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 
 // Divider Styles
