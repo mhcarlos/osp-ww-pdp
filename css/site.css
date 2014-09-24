@@ -174,20 +174,53 @@ a:hover {
     padding: 0 12px 0 0;
 }
 
-
-/* Main Styles */
-#top-bar-div {
-    border-bottom: 1px solid #ccc; 
-    width: 990px; 
-    margin: 10px;
-    padding: 0;
+/* Main/General Styles */
+.row-top-bar {
+    margin-bottom: 5px;
+}
+.original-price {
+    text-decoration: line-through;
+}
+.sale-price {
+    color: red;
+}
+.btn-quickview {
+    margin: 5px auto;
 }
 .top-wrapper {
     background-color: #e3e3e3;
 }
+.pdp-small-column {
+    border-left: 1px solid #BBB;
+}
+
+
 @media only screen and (max-width: 939px) {
 
 }
+
+
+@media only screen and (max-width: 939px) {
+
+}
+
+/* Recommendations */
+.recommendations {
+    text-align: center;
+    margin: auto;
+}
+.recommendations .button {
+    background-color: #EEE;
+}
+.recommendations span, .recommendations .product-name, .recommendations h4 {
+    display: block;
+    font-size: 0.7em;
+}
+.recommendation {
+    margin-bottom: 25px;
+}
+
+
 /* app.css overrides */
 
 .top-bar-section .dropdown {
