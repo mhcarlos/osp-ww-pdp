@@ -195,7 +195,10 @@
   .row.main {padding-top: 15px;}
   .row.main .banner {margin-bottom: 15px;}
   .imgMain {border: 1px solid #ccc;}
-
+  .pdp-select {font-size: 18px; cursor: default;}
+  .pdp-select select, .pdp-select-size option {font-weight: normal; margin: 0; padding: 0;}
+  .pdp-select .pdp-select-title {display: block; clear: both;}
+  .radio-button-group {margin-top: 10px;}
   </style>
   <div class="row">
     <div class="large-12 columns">
@@ -224,31 +227,33 @@
           <img width="271" src="http://media.plussizetech.com/womanwithin/mm/0047_80930_mm.jpg?wid=271&amp;qlt=95&amp;op_sharpen=1" alt="Plus Size Top, tunic in maxi length with comfy smocking" id="Main_Image_0" class="alt-main-image imgMain">
         </div>
 
-        <div class="large-8 columns">
+        <div class="large-8 columns pdp-select">
           <form class="custom">
-            <div class="row">
-              <div class="large-3 columns">
-                <label for="custom-select">1. Select Size:
-                  <select id="custom-select" class="custom">
-                    <option>4</option>
-                    <option>5</option>
-                    <option>6</option>
-                  </select>
-                </label>
+            <div class="row">              
+              <div class="large-4 columns one">
+                <span class="pdp-select-title">1. Select Size:</span>          
+                <select id="custom-select" class="custom">
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                </select>
               </div>
             </div>
             <!-- div.row -->
 
             <div class="row">
-              <div class="large-12 columns">
-                <input name="radio1" type="radio" id="radio1" style="display:none;">
-                <span class="custom radio black"></span>
-                <input name="radio1" type="radio" id="radio1" style="display:none;">
-                <span class="custom radio cherry-glow"></span>
-                <input name="radio1" type="radio" id="radio1" style="display:none;">
-                <span class="custom radio harbor-blue"></span>
-                <input name="radio1" type="radio" id="radio1" style="display:none;">
-                <span class="custom radio slate"></span>
+              <div class="large-12 columns two">
+                <span class="pdp-select-title">2. Select color by clicking a swatch:</span>
+                  <div class="radio-button-group">
+                  <input name="radio1" type="radio" id="radio1" style="display:none;">
+                  <span class="custom radio black"></span>
+                  <input name="radio1" type="radio" id="radio1" style="display:none;">
+                  <span class="custom radio cherry-glow"></span>
+                  <input name="radio1" type="radio" id="radio1" style="display:none;">
+                  <span class="custom radio harbor-blue"></span>
+                  <input name="radio1" type="radio" id="radio1" style="display:none;">
+                  <span class="custom radio slate"></span>
+                </div>
               </div>
             </div>
             <!-- div.row -->
