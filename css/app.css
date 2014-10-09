@@ -4382,7 +4382,7 @@ form.custom .custom.disabled {
 .inline-list {
   margin: 0 auto 1.0625em auto;
   margin-left: -1.375em;
-  margin-right: 0;
+  margin-right: auto;
   padding: 0;
   list-style: none;
   overflow: hidden;

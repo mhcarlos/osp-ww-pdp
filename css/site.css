@@ -245,3 +245,40 @@ a:hover {
 .no-js .top-bar-section ul li:hover > a, .no-js .top-bar-section ul li:active > a {
     color: #ea048a;
 }
+
+.item-name-price {margin-bottom:15px; padding-bottom:15px; border-bottom: 1px solid #ccc;}
+
+form.custom {margin: 20px 0;}
+form.custom .custom.radio {display: block; float: left; margin-right: 20px; width: 28px; height: 28px; border: 1px solid #ccc; border-radius: 0;}
+form.custom .custom.radio:hover {outline: 1px solid #999; cursor: pointer;}
+form.custom .custom.radio.black {background-color: black;}
+form.custom .custom.radio.cherry-glow {background-color: #B45C84;}
+form.custom .custom.radio.harbor-blue {background-color: #17537F;}
+form.custom .custom.radio.slate {background-color: #5C5D61;}
+form.custom .custom.radio.checked:before {background: url("img/icon-check1.png"); height: 20px; width: 20px;}
+.row.main {padding-top: 15px;}
+.row.main .banner {margin-bottom: 15px;}
+.imgMain {border: 1px solid #ccc;}
+.pdp-select {font-size: 15px; cursor: default;}
+.pdp-select select, .pdp-select-size option {font-weight: normal; margin: 0; padding: 0;}
+.pdp-select .pdp-select-title {display: block; font-weight:bold; clear: both;}
+.radio-button-group {margin-top: 15px;}
+h1 {font-size: 1.2em; color:#444;}
+.strikethrough {text-decoration: line-through; font-size:0.8em; margin:0;}
+.salepricestyle {color: #ea048a; margin:0; font-weight: bold;}
+#custom-select2 {width: 20px;}
+a.button {color: #fff; margin-right: 10px;}
+
+.list-items {margin: 1em; padding-left: 1em;}
+
+.section-pdp {font-size: 0.8em;}
+.section-container .active .title {font-weight: bold;}
+.pdp-messaging {font-size: 0.8em;}
+
+.row-footer {}
+.row-footer .footer-bottom {margin: 30px auto 20px auto; padding-top:15px; border-top: 1px solid #ccc; text-align: center; font-size: 0.8em; }
+.row-footer .list-other-osp-brands {margin: 0.7em auto; width: 90%;}
+.row-footer .list-other-osp-brands a {color: #555;}
+.row-footer .list-other-osp-brands a:hover {color: #000;}
+.row-footer .footer-copyright {font-size: 0.8.5em;}
+.row-footer .footer-copyright a {text-decoration: underline;}
