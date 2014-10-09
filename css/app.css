@@ -4378,6 +4378,25 @@ form.custom .custom.disabled {
   margin: 0;
 }
 
+/* Inline Lists */
+.inline-list {
+  margin: 0 auto 1.0625em auto;
+  margin-left: -1.375em;
+  margin-right: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.inline-list > li {
+  list-style: none;
+  float: left;
+  margin-left: 1.375em;
+  display: block;
+}
+.inline-list > li > * {
+  display: block;
+}
+
 /* Panels */
 .panel {
   border-style: solid;
@@ -4435,4 +4454,86 @@ form.custom .custom.disabled {
 .panel.radius {
   -webkit-border-radius: 3px;
   border-radius: 3px;
+}
+
+/* Tooltips */
+.has-tip {
+  border-bottom: dotted 1px #ccc;
+  cursor: help;
+  font-weight: bold;
+  color: #333;
+}
+.has-tip:hover, .has-tip:focus {
+  border-bottom: dotted 1px #86024f;
+  color: #ea048a;
+}
+.has-tip.tip-left, .has-tip.tip-right {
+  float: none !important;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  font-weight: bold;
+  font-size: 0.9375em;
+  line-height: 1.3;
+  padding: 0.5em;
+  max-width: 85%;
+  left: 50%;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.tooltip > .nub {
+  display: block;
+  left: 5px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid 5px;
+  border-color: transparent transparent #000 transparent;
+  top: -10px;
+}
+.tooltip.opened {
+  color: #ea048a !important;
+  border-bottom: dotted 1px #86024f !important;
+}
+
+.tap-to-close {
+  display: block;
+  font-size: 0.625em;
+  color: #888;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .tooltip > .nub {
+    border-color: transparent transparent #000 transparent;
+    top: -10px;
+  }
+  .tooltip.tip-top > .nub {
+    border-color: #000 transparent transparent transparent;
+    top: auto;
+    bottom: -10px;
+  }
+  .tooltip.tip-left, .tooltip.tip-right {
+    float: none !important;
+  }
+  .tooltip.tip-left > .nub {
+    border-color: transparent transparent transparent #000;
+    right: -10px;
+    left: auto;
+    top: 50%;
+    margin-top: -5px;
+  }
+  .tooltip.tip-right > .nub {
+    border-color: transparent #000 transparent transparent;
+    right: auto;
+    left: -10px;
+    top: 50%;
+    margin-top: -5px;
+  }
 }
