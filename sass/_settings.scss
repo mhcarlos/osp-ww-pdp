@@ -1041,15 +1041,15 @@ $crumb-slash: ">"; // "/"
 
 // We use these to set padding and hover factor
 
-// $section-title-padding: em-calc(15);
-// $section-content-padding: em-calc(15);
-// $section-function-factor: 10%;
+$section-title-padding: em-calc(12); //em-calc(15);
+$section-content-padding: em-calc(12);// em-calc(15);
+$section-function-factor: 20%; //10%;
 
 // These style the titles
 
 // $section-title-color: #333;
 // $section-title-color-active: #333;
-// $section-title-bg: #efefef;
+$section-title-bg: #eee; //#efefef;
 // $section-title-bg-active: darken($section-title-bg, $section-function-factor);
 // $section-title-bg-active-tabs: #fff;
 // $section-title-bg-hover: darken($section-title-bg, $section-function-factor / 2);
@@ -1062,7 +1062,7 @@ $crumb-slash: ">"; // "/"
 
 // Font controls
 
-// $section-font-size: em-calc(14);
+// $section-font-size: em-calc(14); 
 
 // Control the color of the background and some size options
 
